@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E371319A263A516600E4647F /* SwiftUI_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3713199263A516600E4647F /* SwiftUI_ListApp.swift */; };
-		E371319C263A516600E4647F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371319B263A516600E4647F /* ContentView.swift */; };
+		E371319C263A516600E4647F /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371319B263A516600E4647F /* VideoListView.swift */; };
 		E371319E263A516900E4647F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E371319D263A516900E4647F /* Assets.xcassets */; };
 		E37131A1263A516900E4647F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37131A0263A516900E4647F /* Preview Assets.xcassets */; };
+		E37131A9263A526A00E4647F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37131A8263A526A00E4647F /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3713196263A516600E4647F /* SwiftUI-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3713199263A516600E4647F /* SwiftUI_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ListApp.swift; sourceTree = "<group>"; };
-		E371319B263A516600E4647F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E371319B263A516600E4647F /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		E371319D263A516900E4647F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E37131A0263A516900E4647F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E37131A2263A516900E4647F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37131A8263A526A00E4647F /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				E3713199263A516600E4647F /* SwiftUI_ListApp.swift */,
-				E371319B263A516600E4647F /* ContentView.swift */,
+				E371319B263A516600E4647F /* VideoListView.swift */,
 				E371319D263A516900E4647F /* Assets.xcassets */,
 				E37131A2263A516900E4647F /* Info.plist */,
+				E37131A8263A526A00E4647F /* Video.swift */,
 				E371319F263A516900E4647F /* Preview Content */,
 			);
 			path = "SwiftUI-List";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E371319C263A516600E4647F /* ContentView.swift in Sources */,
+				E371319C263A516600E4647F /* VideoListView.swift in Sources */,
+				E37131A9263A526A00E4647F /* Video.swift in Sources */,
 				E371319A263A516600E4647F /* SwiftUI_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
